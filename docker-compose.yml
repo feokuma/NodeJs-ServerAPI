@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  bancoabc.api.fake:
+    image: bancoabc.api.fake
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: node app.js
+    ports:
+      - 3000:3000

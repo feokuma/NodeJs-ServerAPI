@@ -1,0 +1,15 @@
+{
+  "name": "bancoabc.api.fake",
+  "version": "1.0.0",
+  "description": "API fake para testes de integração",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lambda3",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0"
+  }
+}
